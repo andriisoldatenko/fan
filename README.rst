@@ -9,7 +9,7 @@ Answers Log
 (2018-03-25)
 ============
 
-- TBD
+- (771) Jewels and Stones https://leetcode.com/problems/jewels-and-stones/
 
 
 (2018-03-26)
