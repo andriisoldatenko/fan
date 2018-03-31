@@ -17,3 +17,4 @@ Answers Log
 ============
 
 - Judge Route Circle (657) https://leetcode.com/problems/judge-route-circle/
+- Self Dividing Numbers (728) https://leetcode.com/problems/self-dividing-numbers/
