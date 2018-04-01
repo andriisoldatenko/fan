@@ -18,3 +18,8 @@ Answers Log
 
 - Judge Route Circle (657) https://leetcode.com/problems/judge-route-circle/
 - Self Dividing Numbers (728) https://leetcode.com/problems/self-dividing-numbers/
+
+(2018-04-01)
+============
+
+- Array Partition I (561) https://leetcode.com/problems/array-partition-i/
