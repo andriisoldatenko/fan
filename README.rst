@@ -23,3 +23,5 @@ Answers Log
 ============
 
 - Array Partition I (561) https://leetcode.com/problems/array-partition-i/
+- Reverse String (344) https://leetcode.com/problems/reverse-string/
+
