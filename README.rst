@@ -4,6 +4,7 @@ Leetcode answers in Go
 
 Answers Log
 ===========
+Results: 9/730 Solved
 
 
 (2018-03-25)
