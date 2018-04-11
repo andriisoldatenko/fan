@@ -25,3 +25,7 @@ Answers Log
 - Array Partition I (561) https://leetcode.com/problems/array-partition-i/
 - Reverse String (344) https://leetcode.com/problems/reverse-string/
 
+(2018-04-11)
+============
+
+- Add Digits (258) https://leetcode.com/problems/add-digits/
