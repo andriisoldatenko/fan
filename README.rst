@@ -29,3 +29,4 @@ Answers Log
 ============
 
 - Add Digits (258) https://leetcode.com/problems/add-digits/
+- Detect Capital (520) https://leetcode.com/problems/detect-capital/
