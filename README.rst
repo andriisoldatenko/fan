@@ -4,8 +4,17 @@ Leetcode answers in Go
 
 Answers Log
 ===========
-Results: 10/730 Solved
+Results: 12/730 Solved
 
+```
+# Tip how to calculate results
+grep 'https://leetcode.com/' README.rst | wc -l
+```
+
+(2018-04-19)
+============
+- Palindrome Number (9) https://leetcode.com/problems/palindrome-number/
+- Reverse Integer (7) https://leetcode.com/problems/reverse-integer/
 
 (2018-04-13)
 ============
