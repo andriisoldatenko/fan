@@ -4,12 +4,17 @@ Leetcode answers in Go
 
 Answers Log
 ===========
-Results: 12/730 Solved
+Results: 15/730 Solved
 
 ```
 # Tip how to calculate results
 grep 'https://leetcode.com/' README.rst | wc -l
 ```
+
+(2018-04-28)
+============
+- Number of 1 Bits (191) https://leetcode.com/problems/number-of-1-bits/
+- Power of Two (231) https://leetcode.com/problems/power-of-two/
 
 (2018-04-19)
 ============
