@@ -1,15 +1,9 @@
-======================
-Leetcode answers in Go
-======================
+=============================================================
+Answers for different programming puzzles using Go and Python
+=============================================================
 
 Answers Log
 ===========
-Results: 15/730 Solved
-
-```
-# Tip how to calculate results
-grep 'https://leetcode.com/' README.rst | wc -l
-```
 
 (2018-04-28)
 ============
