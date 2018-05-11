@@ -5,6 +5,10 @@ Answers for different programming puzzles using Go and Python
 Answers Log
 ===========
 
+(2018-05-11)
+============
+- The 3n + 1 problem (100) https://uva.onlinejudge.org/external/1/100.pdf
+
 (2018-04-28)
 ============
 - Number of 1 Bits (191) https://leetcode.com/problems/number-of-1-bits/
