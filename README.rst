@@ -5,6 +5,12 @@ Answers for different programming puzzles using Go and Python
 Answers Log
 ===========
 
+(2018-05-24)
+============
+- TEX Quotes (272) https://uva.onlinejudge.org/external/2/272.pdf
+- Celebrity jeopardy (1124) https://uva.onlinejudge.org/external/11/1124.pdf
+- Combination Lock (10550) https://uva.onlinejudge.org/external/105/10550.pdf
+
 (2018-05-13)
 ============
 - Minesweeper (10189) https://uva.onlinejudge.org/external/101/10189.pdf
