@@ -5,6 +5,10 @@ Answers for different programming puzzles using Go and Python
 Answers Log
 ===========
 
+(2018-05-29)
+============
+- The Trip (10137) https://uva.onlinejudge.org/external/101/10137.pdf
+
 (2018-05-24)
 ============
 - TEX Quotes (272) https://uva.onlinejudge.org/external/2/272.pdf
