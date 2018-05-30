@@ -5,6 +5,10 @@ Answers for different programming puzzles using Go and Python
 Answers Log
 ===========
 
+(2018-05-30)
+============
+- LC-Display (706) https://uva.onlinejudge.org/external/7/706.pdf
+
 (2018-05-29)
 ============
 - The Trip (10137) https://uva.onlinejudge.org/external/101/10137.pdf
