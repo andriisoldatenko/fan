@@ -2,6 +2,10 @@
 Answers for different programming puzzles using Go and Python
 =============================================================
 
+Statistics
+==========
+http://uhunt.onlinejudge.org/id/202267
+
 Answers Log
 ===========
 
