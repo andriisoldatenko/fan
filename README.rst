@@ -5,6 +5,19 @@ Answers for different programming puzzles using Go and Python
 Answers Log
 ===========
 
+(2018-06-03)
+============
+- Hashmat the brave warrior (10055) https://uva.onlinejudge.org/external/100/10055.pdf
+- Back to High School Physics (10071) https://uva.onlinejudge.org/external/100/10071.pdf
+- Ecological Premium (10300) https://uva.onlinejudge.org/external/103/10300.pdf
+- The Decoder (458) https://uva.onlinejudge.org/external/4/458.pdf
+
+(2018-05-31)
+============
+- Ecological Premium (10300) https://uva.onlinejudge.org/external/103/10300.pdf
+- Back to High School Physics (10071) https://uva.onlinejudge.org/external/100/10071.pdf
+- Hashmat the Brave Warrior (10055) https://uva.onlinejudge.org/external/100/10055.pdf
+
 (2018-05-30)
 ============
 - LC-Display (706) https://uva.onlinejudge.org/external/7/706.pdf
