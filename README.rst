@@ -9,6 +9,18 @@ http://uhunt.onlinejudge.org/id/202267
 Answers Log
 ===========
 
+(2018-06-05)
+============
+- 10035 Primary Arithmetic 
+- 11727	Cost Cutting
+- 10038	Jolly Jumpers
+- 10783	Odd Sum
+- 11172	Relational Operator
+- 490	Rotating Sentences
+- 488	Triangle Wave
+- 494	Kindergarten Counting Game
+- 458	The Decoder
+
 (2018-06-03)
 ============
 - Hashmat the brave warrior (10055) https://uva.onlinejudge.org/external/100/10055.pdf
