@@ -5,7 +5,7 @@ FILE = sys.stdin
 
 counter = 1
 
-d = {
+d = {   
     'HELLO': 'ENGLISH',
     'HOLA': 'SPANISH',
     'HALLO': 'GERMAN',
@@ -20,3 +20,5 @@ for line in FILE:
         break
     print('Case {}: {}'.format(counter, d.get(line.strip(), 'UNKNOWN')))
     counter +=1
+
+map(int, FILE.readline().strip().split())
