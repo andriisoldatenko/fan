@@ -9,6 +9,14 @@ http://uhunt.onlinejudge.org/id/202267
 Answers Log
 ===========
 
+(2020-04-27)
+============
+- sherlock-and-anagrams (hackerrank)
+
+(2020-04-24)
+============
+- 2d-array (hackerrank)
+
 (2018-06-05)
 ============
 - 10035 Primary Arithmetic 
