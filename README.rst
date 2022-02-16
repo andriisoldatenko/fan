@@ -9,6 +9,10 @@ http://uhunt.onlinejudge.org/id/202267
 Answers Log
 ===========
 
+(2022-02-15)
+============
+- 136 single number
+
 (2021-04-11)
 ============
 - 591 Box of Bricks
