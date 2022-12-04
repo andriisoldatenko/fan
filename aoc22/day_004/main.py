@@ -15,5 +15,15 @@ def main(file):
             result += 1
     return result
 
+def main2(file):
+    reconsider = []
+    for line in file:
+        x1, x2, y1, y2 = map(int, [y for x in line.split(",") for y in x.split("-")])
+        setx = set(range(x1, x2 + 1))
+        sety = set(range(y1, y2 + 1))
+        if setx.issubset(sety) or sety.issubset(setx):
+            reconsider.append(line)
+    return len(reconsider)
 
+print(main2(FILE))
 print(main(FILE))
