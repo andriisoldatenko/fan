@@ -1,53 +1,19 @@
-import re
-
 FILE = open("input.txt")
 
-N = 9
-
-STACK = {
-    1: [],
-    2: [],
-    3: [],
-    4: [],
-    5: [],
-    6: [],
-    7: [],
-    8: [],
-    9: [],
-}
-
+M = 14
 
 def main(file):
-    for line in file:
-        cl_line = line
-        if line.startswith(" 1 2") or line == "\n":
-            continue
-
-        if line.startswith("move"):
-            numbers = list(map(int, re.findall(r"\d+", line)))
-            for j in range(numbers[0]):
-                try:
-                    STACK[numbers[2]].append(STACK[numbers[1]].pop())
-                except (IndexError, KeyError):
-                    pass
-            continue
-
-        chars = cl_line.split(" ")
-        k = 0
-        r = []
-        for ch in chars:
-            if k % 4 == 0 or ch.startswith("["):
-                r.append(ch)
-            k += 1
-
-        for i in range(1, N + 1):
-            if i - 1 < len(r) and r[i - 1] != '':
-                STACK[i].insert(0, r[i - 1])
     result = []
-    for i in range(N):
-        result.append(STACK[i + 1][-1])
-    return "".join(re.findall(r"\w", "".join(result)))
+    for line in file:
+        N = len(line)
+        for i in range(0, N - M):
+            chars = (line[i:i + M])
+            chars_s = set(chars)
+            if len(chars_s) == M:
+                result.append(i + M)
+                break
+
+    return result
 
 
 print(main(FILE))
-# G D H N Q D M S W
