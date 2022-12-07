@@ -58,7 +58,6 @@ def find_sing(arr):
 
 
 def main(file):
-    # result = []
     pos = 0
     f = list(map(str.rstrip, file.readlines()))
     tree = Dir("/")
@@ -89,6 +88,5 @@ def main(file):
     tree.find_folders()
     print(sum(result))
     return
-
 
 main(FILE)

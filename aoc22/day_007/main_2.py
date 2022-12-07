@@ -77,7 +77,6 @@ def main(file):
         elif f[pos].startswith("$ cd"):
             name = f[pos].split()[-1]
             cwd = cwd.cd(name)
-            1 == 1
         elif f[pos] == "$ ls":
             sign = find_sing(f[pos + 1:]) + 1
             if sign == 0:
