@@ -1,7 +1,7 @@
 package main
 
 import (
-	"reflect"
+	"github.com/google/go-cmp/cmp"
 	"testing"
 )
 
@@ -16,9 +16,10 @@ func Test_twoSum(t *testing.T) {
 		{[]int{3, 3}, 6, []int{0, 1}},
 	}
 	for _, test := range tests {
-		indices := twoSum(test.nums, test.target)
-		if !reflect.DeepEqual(indices, test.indices) {
-			t.Errorf("Total was incorrect, got: %v, want: %v.", indices, test.indices)
+		got := twoSum(test.nums, test.target)
+		if diff := cmp.Diff(test.indices, got); diff != "" {
+			t.Errorf("twoSum() mismatch (-want +got):\n%s", diff)
 		}
+
 	}
 }

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {}
 
 func twoSum_(nums []int, target int) []int {
@@ -22,7 +20,7 @@ func twoSum(nums []int, target int) []int {
 			return []int{requiredIdx, currIndex}
 		}
 		indexMap[currNum] = currIndex
-		fmt.Println(indexMap)
+		//fmt.Println(indexMap)
 	}
 	return []int{}
 }
