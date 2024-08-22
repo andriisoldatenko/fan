@@ -5,13 +5,12 @@ import (
 	"testing"
 )
 
-
 func TestGetConcatenation(t *testing.T) {
 	tests := []struct {
 		x []int
 		n []int
 	}{
-		{[]int{1, 2}, []int{ 1, 2, 1, 2 }},
+		{[]int{1, 2}, []int{1, 2, 1, 2}},
 	}
 	for _, test := range tests {
 		result := getConcatenation(test.x)

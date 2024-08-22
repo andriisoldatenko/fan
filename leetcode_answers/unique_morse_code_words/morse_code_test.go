@@ -2,7 +2,6 @@ package main
 
 import "testing"
 
-
 func TestUniqueMorseRepresentations(t *testing.T) {
 	tests := []struct {
 		x []string

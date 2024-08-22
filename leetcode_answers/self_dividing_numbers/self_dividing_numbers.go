@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func All(vs []bool) bool{
+func All(vs []bool) bool {
 	for _, v := range vs {
 		if !v {
 			return false
@@ -14,11 +14,13 @@ func All(vs []bool) bool{
 func splitNumberToSlice(num int) []int {
 	var arr []int
 	for {
-		arr = append(arr, num % 10)
+		arr = append(arr, num%10)
 		num /= 10
 		if num > 0 {
 			continue
-		} else { break }
+		} else {
+			break
+		}
 	}
 	return arr
 }
@@ -31,7 +33,7 @@ func selfDividingNumbers(left int, right int) []int {
 			if c == 0 {
 				selfDiv = append(selfDiv, false)
 			} else {
-				selfDiv = append(selfDiv, i % c == 0)
+				selfDiv = append(selfDiv, i%c == 0)
 			}
 		}
 		if All(selfDiv) {

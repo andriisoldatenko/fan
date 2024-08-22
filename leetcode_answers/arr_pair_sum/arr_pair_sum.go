@@ -1,8 +1,8 @@
 package main
 
 import (
-	"sort"
 	"fmt"
+	"sort"
 )
 
 func arrayPairSum(nums []int) int {

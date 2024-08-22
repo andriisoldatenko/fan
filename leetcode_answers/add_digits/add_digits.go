@@ -3,18 +3,20 @@ package main
 import (
 	"fmt"
 )
+
 func splitNumberToSlice(num int) []int {
 	var arr []int
 	for {
-		arr = append(arr, num % 10)
+		arr = append(arr, num%10)
 		num /= 10
 		if num > 0 {
 			continue
-		} else { break }
+		} else {
+			break
+		}
 	}
 	return arr
 }
-
 
 func addDigitsSimple(num int) int {
 	nums := splitNumberToSlice(num)
@@ -27,7 +29,6 @@ func addDigitsSimple(num int) int {
 	} else {
 		return addDigitsSimple(result)
 	}
-	return result
 }
 
 func addDigits(num int) int {

@@ -1,10 +1,9 @@
 package main
 
-
 func judgeCircle(moves string) bool {
 	x := 0
 	y := 0
-	for _,c := range moves {
+	for _, c := range moves {
 		if c == 'U' {
 			y++
 		} else if c == 'D' {

@@ -12,11 +12,13 @@ const MinInt = -MaxInt - 1
 func splitNumberToSlice(num int) []int {
 	var arr []int
 	for {
-		arr = append(arr, num % 10)
+		arr = append(arr, num%10)
 		num /= 10
 		if num > 0 {
 			continue
-		} else { break }
+		} else {
+			break
+		}
 	}
 	return arr
 }
@@ -28,7 +30,6 @@ func reverseInt(numbers []int) []int {
 	return numbers
 }
 
-
 func reverse(x int) int {
 	negative := false
 	if x < 0 {
@@ -38,7 +39,7 @@ func reverse(x int) int {
 	nums := reverseInt(splitNumberToSlice(x))
 	result := 0
 	for i, n := range nums {
-		result = result + n * int(math.Pow10(i))
+		result = result + n*int(math.Pow10(i))
 	}
 	if negative {
 		result = -result

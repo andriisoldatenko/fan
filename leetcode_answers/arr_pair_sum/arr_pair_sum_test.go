@@ -2,7 +2,6 @@ package main
 
 import "testing"
 
-
 func TestArrayPairSum(t *testing.T) {
 	tests := []struct {
 		x []int

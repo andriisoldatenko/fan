@@ -25,13 +25,12 @@ func detectCapitalUse(word string) bool {
 		return true
 	}
 
-	if len(caps) == sum(caps) || (caps[0] == 1 && sum(caps) == 1){
+	if len(caps) == sum(caps) || (caps[0] == 1 && sum(caps) == 1) {
 		return true
 	} else {
 		return false
 	}
 }
-
 
 func main() {
 	fmt.Println(detectCapitalUse("Google"))

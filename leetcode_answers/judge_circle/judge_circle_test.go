@@ -2,7 +2,6 @@ package main
 
 import "testing"
 
-
 func TestJudgeCircle(t *testing.T) {
 	tests := []struct {
 		x string
@@ -14,7 +13,7 @@ func TestJudgeCircle(t *testing.T) {
 	for _, test := range tests {
 		result := judgeCircle(test.x)
 		if result != test.n {
-			t.Errorf("Total was incorrect, got: %b, want: %b.", result, test.n)
+			t.Errorf("Total was incorrect, got: %v, want: %v.", result, test.n)
 		}
 	}
 }

@@ -2,7 +2,6 @@ package main
 
 import "testing"
 
-
 func TestReverseString(t *testing.T) {
 	tests := []struct {
 		x string

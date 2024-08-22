@@ -2,7 +2,6 @@ package main
 
 import "testing"
 
-
 func TestArrayPairSum(t *testing.T) {
 	tests := []struct {
 		x string
@@ -15,7 +14,7 @@ func TestArrayPairSum(t *testing.T) {
 	for _, test := range tests {
 		result := reverseString(test.x)
 		if result != test.n {
-			t.Errorf("Total was incorrect, got: %d, want: %d.", result, test.n)
+			t.Errorf("Total was incorrect, got: %s, want: %s.", result, test.n)
 		}
 	}
 }

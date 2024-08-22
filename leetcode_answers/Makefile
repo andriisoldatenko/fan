@@ -49,14 +49,9 @@ fmt:
 	go fmt ./...
 .PHONY:fmt
 
-lint: fmt
-	golint ./...
-.PHONY:lint
-
-vet: fmt
+vet:
 	go vet ./...
 .PHONY:vet
 
-build: vet
-	go build hello.go
+build: vet fmt
 .PHONY:build

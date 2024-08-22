@@ -1,10 +1,9 @@
 package main
 
 import (
-	"testing"
 	"reflect"
+	"testing"
 )
-
 
 func TestSelfDividingNumbers(t *testing.T) {
 	tests := []struct {

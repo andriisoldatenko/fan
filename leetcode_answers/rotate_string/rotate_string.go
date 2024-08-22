@@ -21,5 +21,5 @@ func reverseString(s string) string {
 }
 
 func main() {
-	fmt.Println(reverseString("The quick brown 狐 jumped over the lazy 犬" ))
+	fmt.Println(reverseString("The quick brown 狐 jumped over the lazy 犬"))
 }
