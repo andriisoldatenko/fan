@@ -11,6 +11,8 @@ func Test_findComplement(t *testing.T) {
 		i   int
 	}{
 		{5, 2},
+		{1, 0},
+		{0, 1},
 	}
 	for _, test := range tests {
 		result := findComplement(test.num)
