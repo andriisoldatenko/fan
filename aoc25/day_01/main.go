@@ -50,7 +50,7 @@ func main() {
 		t = strings.Replace(t, "L", "-", -1)
 		t = strings.Replace(t, "R", "", -1)
 		number, _ := strconv.Atoi(t)
-		start_zero := result == 0
+		startZero := result == 0
 
 		d := div(result+number, 100)
 		m := mod(result+number, 100)
@@ -60,7 +60,7 @@ func main() {
 		rr = rr + abs(d)
 
 		if number < 0 {
-			rr = rr + boolToInt(result == 0) - boolToInt(start_zero)
+			rr = rr + boolToInt(result == 0) - boolToInt(startZero)
 		}
 
 	}
