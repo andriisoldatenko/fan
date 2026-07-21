@@ -37,4 +37,10 @@ func addDigits(num int) int {
 
 func main() {
 	fmt.Println(addDigits(38))
+
+	s := "abc"
+	runes := []rune(s)
+	for r := range runes {
+		fmt.Println(r)
+	}
 }
